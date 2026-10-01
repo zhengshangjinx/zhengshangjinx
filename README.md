@@ -1,16 +1,19 @@
-## Hi there 👋
+<div align="center">
+  <img src="assets/hero.svg" alt="郑上进 · zhengshangjinx" width="880">
+</div>
 
-<!--
-**zhengshangjinx/zhengshangjinx** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 技术栈
 
-Here are some ideas to get you started:
+**语言**　![Java](assets/badges/java.svg) ![Python](assets/badges/python.svg) ![Go](assets/badges/go.svg) ![JavaScript](assets/badges/javascript.svg) ![TypeScript](assets/badges/typescript.svg)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**后端**　![Spring Boot](assets/badges/spring-boot.svg) ![MyBatis](assets/badges/mybatis.svg) ![Netty](assets/badges/netty.svg)
+
+**数据**　![MySQL](assets/badges/mysql.svg) ![MongoDB](assets/badges/mongodb.svg) ![Redis](assets/badges/redis.svg) ![RocketMQ](assets/badges/rocketmq.svg) ![Elasticsearch](assets/badges/elasticsearch.svg)
+
+**前端**　![Vue](assets/badges/vue.svg) ![uni-app](assets/badges/uni-app.svg) ![微信小程序](assets/badges/wechat-miniprogram.svg)
+
+**工程**　![Docker](assets/badges/docker.svg) ![Jenkins](assets/badges/jenkins.svg) ![Nginx](assets/badges/nginx.svg) ![Linux](assets/badges/linux.svg) ![Maven](assets/badges/maven.svg) ![Git](assets/badges/git.svg)
+
+---
+
+📮 zhengshangjinx@gmail.com
