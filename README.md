@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/hero.svg" alt="郑上进 · zhengshangjinx" width="880">
+  <img src="assets/hero.svg" alt="Java / Python / Go · 全栈开发 · 微服务 · Vue 与小程序" width="880">
 </div>
 
 ### 技术栈
