@@ -9,18 +9,49 @@
       <stop offset="0%" stop-color="#4fd1c5"/>
       <stop offset="100%" stop-color="#63b3ed"/>
     </linearGradient>
+    <radialGradient id="glowA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4fd1c5" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#4fd1c5" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#63b3ed" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#63b3ed" stop-opacity="0"/>
+    </radialGradient>
     <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
       <circle cx="2" cy="2" r="1.1" fill="#ffffff" opacity="0.10"/>
     </pattern>
+    <clipPath id="card"><rect width="880" height="260" rx="10"/></clipPath>
   </defs>
 
-  <rect width="880" height="260" rx="10" fill="url(#bg)"/>
-  <rect width="880" height="260" rx="10" fill="url(#dots)"/>
+  <g clip-path="url(#card)">
+    <rect width="880" height="260" fill="url(#bg)"/>
+    <circle cx="790" cy="10" r="300" fill="url(#glowA)"/>
+    <circle cx="40" cy="280" r="300" fill="url(#glowB)"/>
+    <rect width="880" height="260" fill="url(#dots)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="879" height="259" rx="10" fill="none" stroke="url(#accent)" stroke-opacity="0.30"/>
 
   <g font-family="system-ui, -apple-system, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif">
     <text x="56" y="116" fill="#ffffff" font-size="40" font-weight="700">Java / Python / Go</text>
     <rect x="56" y="140" width="64" height="3" rx="1.5" fill="url(#accent)"/>
     <text x="56" y="180" fill="#cbd5e0" font-size="18">全栈开发　·　微服务　·　Vue 与小程序</text>
+  </g>
+
+  <g font-family="system-ui, -apple-system, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="12.5" font-weight="500" fill="#cbd5e0">
+    <rect x="56" y="204" width="97" height="30" rx="15" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/>
+    <text x="69" y="223">Spring Boot</text>
+    <rect x="163" y="204" width="69" height="30" rx="15" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/>
+    <text x="176" y="223">MySQL</text>
+    <rect x="242" y="204" width="59" height="30" rx="15" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/>
+    <text x="255" y="223">Redis</text>
+    <rect x="311" y="204" width="88" height="30" rx="15" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/>
+    <text x="324" y="223">RocketMQ</text>
+    <rect x="409" y="204" width="49" height="30" rx="15" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/>
+    <text x="422" y="223">Vue</text>
+    <rect x="468" y="204" width="69" height="30" rx="15" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/>
+    <text x="481" y="223">Docker</text>
+    <rect x="547" y="204" width="72" height="30" rx="15" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/>
+    <text x="560" y="223">Jenkins</text>
   </g>
 
   <g>
@@ -31,10 +62,14 @@
     <circle cx="650" cy="73" r="4" fill="#febc2e"/>
     <circle cx="664" cy="73" r="4" fill="#28c840"/>
     <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
-      <text x="638" y="112" fill="#4fd1c5">$ java -version</text>
-      <text x="638" y="134" fill="#8fa3b8">openjdk 21.0.2</text>
-      <text x="638" y="160" fill="#4fd1c5">$ npm run dev</text>
-      <text x="638" y="182" fill="#8fa3b8">VITE ready in 312 ms</text>
+      <text x="638" y="112" fill="#8fa3b8">$ java -version</text>
+      <text x="814" y="112" fill="#4fd1c5" text-anchor="end">25</text>
+      <text x="638" y="134" fill="#8fa3b8">$ python3 -V</text>
+      <text x="814" y="134" fill="#4fd1c5" text-anchor="end">3.14</text>
+      <text x="638" y="156" fill="#8fa3b8">$ go version</text>
+      <text x="814" y="156" fill="#4fd1c5" text-anchor="end">1.27</text>
+      <text x="638" y="178" fill="#8fa3b8">$ node -v</text>
+      <text x="814" y="178" fill="#4fd1c5" text-anchor="end">24</text>
     </g>
   </g>
 </svg>
